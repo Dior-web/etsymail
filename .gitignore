@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+
+# Gmail API credentials (kesinlikle GitHub'a yüklenmesin!)
+token.json
+client_secret.json
+
+# CSV çıktılar (yerelde kalabilir, repo'ya gerek yok)
+etsy_orders.csv
+*.csv
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
